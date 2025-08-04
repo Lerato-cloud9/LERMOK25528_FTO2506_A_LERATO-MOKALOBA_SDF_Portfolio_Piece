@@ -31,6 +31,7 @@ a:hover {
   display: flex;
   gap: 14px;
   margin-bottom: 40px;
+  flex-wrap: wrap;
 }
 .image-box {
   width: 200px;
@@ -204,7 +205,26 @@ a:hover {
   color: #242a32;
   margin-top: 8px;
 }
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
+  .profile-info {
+    max-width: 90%;
+  }
+
+  .image-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-box img {
+    margin-bottom: 16px;
+  }
+}
 /* ========== EDUCATION + TOOLS SECTION ========== */
 .top-section {
   display: flex;
