@@ -1,0 +1,316 @@
+/* ========== RESET AND BASE ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #877f7f;
+  color: #242a32;
+  line-height: 1.4;
+  padding: 30px 15px;
+}
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ========== CONTAINER ========== */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ========== PROFILE SECTION ========== */
+.profile-container {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+.image-box {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 24px;
+  flex-shrink: 0;
+}
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile-info {
+  flex: 2;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 3px #dadada;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile-info h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.profile-info p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4A4A4A;
+  max-width: 100%;
+}
+
+/* ========== SKILLS + PROFICIENCY SECTION ========== */
+.skills-proficiency {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.box {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #dadada; 
+  padding: 24px;
+  flex: 1 1 300px;
+  min-width: 300px;
+  max-width: 580px;
+}
+/* Proficiency Section */
+.proficiency h2,
+.skills h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.proficiency-levels {
+  display: flex;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.proficiency-levels div {
+  flex: 1;
+  text-align: center;
+}
+.progress-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.progress-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.progress-bar-label {
+  width: 100px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.progress-bar {
+  background: #d1d1d1;
+  border-radius: 3px;
+  height: 15px;
+  flex-grow: 1;
+}
+.progress-fill {
+  background: #396b5e;
+  height: 15px;
+  border-radius: 3px 0 0 3px;
+}
+.progress-fill.full {
+  border-radius: 3px;
+}
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.skill-item {
+  background: #e8f0f2;
+  color: #396b5e;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+/* ========== PROJECTS SECTION ========== */
+.section-box {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #dadada; 
+  margin-bottom: 30px;
+  
+}
+.projects-section {
+  margin-bottom: 40px;
+}
+.projects-section h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+.project-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(218, 218, 218, 0.9);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.project-year-heart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: #396b5e;
+}
+.project-year-heart .heart {
+  color: #ff5f6d;
+  font-size: 18px;
+}
+.project-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #242a32;
+}
+.project-brief,
+.project-tech-list,
+.project-responsibilities-list {
+  font-size: 13px;
+  color: #5a5a5a;
+}
+.project-tech-label,
+.project-responsibilities-label {
+  font-weight: 600;
+  color: #242a32;
+  margin-top: 8px;
+}
+
+/* ========== EDUCATION + TOOLS SECTION ========== */
+.top-section {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.education-section,
+.tools-section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+.education-section {
+  flex: 2;
+}
+.tools-section {
+  flex: 1;
+}
+/* Education */
+.edu-card {
+  background: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.date {
+  color: #396B5E;
+  font-weight: bold;
+}
+.sub {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #666;
+}
+.edu-card ul {
+  list-style-type: disc;
+  padding-left: 18px;
+  color: #444;
+  line-height: 1.6;
+}
+/* Tools */
+.tools-section.section-box {
+  max-width: 200px;
+  margin-left: auto; /* optional for right alignment */
+}
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  justify-items: center;
+  margin-top: 10px;
+}
+.icon-grid img {
+  width: 48px;
+  height: 48px;
+}
+
+
+/* ========== EXPERIENCE SECTION ========== */
+.experience-section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+.exp-card {
+  background: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  
+}
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.badge {
+  background-color: #ff5c39;
+  color: white;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background-color: #e0582a;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 40px;
+}
+footer p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-info {
+  font-size: 14px;
+}
+.contact-info span,
+.contact-info a {
+  margin: 0 5px;
+  color: white;
+  text-decoration: none;
+}
