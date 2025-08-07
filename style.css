@@ -29,6 +29,7 @@ a:hover {
 /* ========== PROFILE SECTION ========== */
 .profile-container {
   display: flex;
+  flex-direction: row;
   gap: 14px;
   margin-bottom: 40px;
   flex-wrap: wrap;
