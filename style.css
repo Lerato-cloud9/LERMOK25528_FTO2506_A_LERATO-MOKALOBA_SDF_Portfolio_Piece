@@ -279,6 +279,15 @@ a:hover {
   color: #444;
   line-height: 1.6;
 }
+.green-shade {
+  background-color: #3d8770; 
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);  
+}
+.green-shade * {
+  color: white;
+}
 /* Tools */
 .tools-section.section-box {
   max-width: 200px;
@@ -322,6 +331,15 @@ a:hover {
   font-size: 12px;
   padding: 2px 8px;
   border-radius: 8px;
+}
+.green-shade {
+  background-color: #3d8770; 
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);  
+}
+.green-shade * {
+  color: white;
 }
 
 /* ========== FOOTER ========== */
