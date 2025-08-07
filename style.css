@@ -21,7 +21,7 @@ a:hover {
 
 /* ========== CONTAINER ========== */
 .container {
-  max-width: 1200px;
+  max-width: 1500px;
   width: 100%;
   margin: 0 auto;
 }
@@ -82,7 +82,7 @@ a:hover {
   padding: 24px;
   flex: 1 1 300px;
   min-width: 300px;
-  max-width: 580px;
+  max-width: 750px;
 }
 /* Proficiency Section */
 .proficiency h2,
