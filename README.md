@@ -119,7 +119,7 @@ Take your time. Follow the walkthrough. Ask for help if you need it.
 You're not just building a resume site — you're building confidence, skills, and a real piece of your future portfolio.
 
 **You’ve got this. Let’s go! 🚀**
-- [📹 Resume Project Walkthrough – Part 1](https://www.loom.com/share/6f5df3b90698408489a4cfee9adf7a40?sid=fec62773-6a60-4bf7-b4b6-05b5bf2abff9)  
-- [📹 Resume Project Walkthrough – Part 2](https://www.loom.com/share/29c355da1c8b4c93a86a2eb1a5d5f90e?sid=a0bf4194-0392-4e7b-982b-c4989edf8baf)
+- [📹 Resume Project Walkthrough – Part 1](https://www.loom.com/share/48cb7599fb5e441194507c031c7c0810?sid=e0763d3b-be2b-43c5-b8bf-6e2b8b8b6906)  
+- [📹 Resume Project Walkthrough – Part 2](https://www.loom.com/share/df2829f65cc04b67a7daaa6ad89ec964?sid=dcfaf5d1-6c68-416d-b2d1-67c39e640c79)
 Then:
 
