@@ -121,5 +121,5 @@ You're not just building a resume site — you're building confidence, skills, a
 **You’ve got this. Let’s go! 🚀**
 - [📹 Resume Project Walkthrough – Part 1](https://www.loom.com/share/48cb7599fb5e441194507c031c7c0810?sid=e0763d3b-be2b-43c5-b8bf-6e2b8b8b6906)  
 - [📹 Resume Project Walkthrough – Part 2](https://www.loom.com/share/df2829f65cc04b67a7daaa6ad89ec964?sid=dcfaf5d1-6c68-416d-b2d1-67c39e640c79)
-Then:
+
 
